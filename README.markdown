@@ -10,8 +10,9 @@ Usage
 
     require 'password-inquisition'
 
-    Inquisition.check_password("password").strength
+    inquisition = Inquisition::Default.new
+    inquisition.test("password").strength
     => :weak
 
-    Inquisition.check_password("87sfH&xmbds7!sJI").strength
+    inquisition.test("87sfH&xmbds7!sJI").strength
     => :very_strong
