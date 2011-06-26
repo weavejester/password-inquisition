@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.homepage = ""
   s.summary  = "A library for calculating password inquisition"
 
-  s.add_development_dependency "cucumber"
   s.add_development_dependency "rspec"
 
   s.files = `git ls-files`.split("\n")
