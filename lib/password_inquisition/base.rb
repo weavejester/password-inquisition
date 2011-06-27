@@ -1,4 +1,4 @@
-require 'password-inquisition/security_group'
+require 'password_inquisition/security_group'
 
 module Inquisition
   class Base

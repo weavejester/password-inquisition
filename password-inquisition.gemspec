@@ -1,5 +1,5 @@
 $:.push File.expand_path("../lib", __FILE__)
-require "password-inquisition/version"
+require "password_inquisition/version"
 
 Gem::Specification.new do |s|
   s.name     = "password-inquisition"
